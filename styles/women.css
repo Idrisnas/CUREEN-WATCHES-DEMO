@@ -1,0 +1,546 @@
+.up {
+  background-color: red;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+  font-size: 19px;
+  /* font-weight: 900; */
+}
+/* NAVIGATION */
+.hero-1 {
+}
+.hero-1-img {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero-1-img img {
+  width: 100%;
+}
+header {
+    width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.first-header {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.2;
+  color: #121317;
+}
+.first-header h1 {
+  color: #8f8181;
+  font-weight: 200px;
+}
+.first-header p {
+  font-size: ;
+  color: #5e5252;
+  font-weight: 200px;
+}
+.arrival h2 {
+  color: #121317;
+  font-weight: 200;
+}
+.watches {
+  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.strong span{
+    text-decoration: line-through;
+}
+.watches-2 {
+  
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+.watch-1 {
+  overflow: hidden;
+}
+.watch-1-check {
+  background-image: url(../img/close-up-of-classic-gold-and-leather-watch_1280x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+.check-text {
+    padding: 1rem;
+  text-align: center !important;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  line-height: .5;
+
+  
+}
+.check-text p:nth-child(1){
+/* background-color: red; */
+font-size: 1.8rem;
+color: #000000;
+font-weight: 500;
+}
+.overlay{
+    background-color: #1213175f;
+    width: 100%;
+    height: 100%;
+}
+.watch-1-img {
+  background-image: url(../img/currensimplewatch_375x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-1-img:hover {
+  background-image: url(../img/Sc0880a40689143efa4aabe412418d8feH_375x.webp);
+  transform: scale(1.1);
+}
+.watch-2-img {
+  background-image: url(../img/watch-2\ img.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+  overflow: hidden;
+}
+.watch-2-img:hover {
+  background-image: url(../img/watch-2-hover.jpg);
+}
+.watch-3-img {
+  background-image: url(../img/watch-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-3-img:hover {
+  background-image: url(../img/watch-3\ hover.webp);
+}
+.watch-4-img {
+  background-image: url(../img/watch-4.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-4-img:hover {
+  background-image: url(../img/watch-4hover.webp);
+}
+.watch-5-img {
+  background-image: url(../img/watch-5.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-5-img:hover {
+  background-image: url(../img/watch-5hov.jpeg);
+}
+.watch-6-img {
+  background-image: url(../img/watch-6.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-6-img:hover {
+  background-image: url(../img/watch-6-hov.jpeg);
+}
+.watch-7-img {
+  background-image: url(../img/watch-7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-7-img:hover {
+  background-image: url(../img/watch-7-hov.jpeg);
+}
+.watch-8-img {
+  background-image: url(../img/watch-8.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-8-img:hover {
+  background-image: url(../img/watch-8-hov.jpg);
+}
+.watch-9-img {
+  background-image: url(../img/watch-9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-9-img:hover {
+  background-image: url(../img/watch-9-hover.jpg);
+}
+.watch-10-img {
+  background-image: url(../img/watch-10.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-10-img:hover {
+  background-image: url(../img/watch-10-hov.jpg);
+}
+.watch-11-img {
+  background-image: url(../img/watch-11.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-11-img:hover {
+  background-image: url(../img/watch-11-hover.jpg);
+}
+.watch-12-img {
+  background-image: url(../img/watch-12.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-12-img:hover {
+  background-image: url(../img/watch-12-hov.jpg);
+}
+.watch-13-img {
+  background-image: url(../img/watch-3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-13-img:hover {
+  background-image: url(../img/watch-3\ hover.webp);
+}
+
+.watch-14-img {
+  background-image: url(../img/watch-13.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-14-img:hover {
+  background-image: url(../img/watch-13-hover.jpg);
+}
+.watch-15-img {
+  background-image: url(../img/watch-14.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-15-img:hover {
+  background-image: url(../img/watch-14-hover.jpg);
+}
+.watch-16-img {
+  background-image: url(../img/watch-15.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-16-img:hover {
+  background-image: url(../img/watch-15-hover.jpg);
+}
+.watch-17-img {
+  background-image: url(../img/watch-16.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-17-img:hover {
+  background-image: url(../img/watch-16-hover.jpg);
+}
+.watch-18-img {
+  background-image: url(../img/watch-17.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-18-img:hover {
+  background-image: url(../img/watch-17-hover.jpg);
+}
+.watch-19-img {
+  background-image: url(../img/watch-18.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-19-img:hover {
+  background-image: url(../img/watch-18-hov.jpg);
+}
+.watch-20-img {
+  background-image: url(../img/watch-19.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-20-img:hover {
+  background-image: url(../img/watch-19-hover.jpg);
+}
+.watch-21-img {
+  background-image: url(../img/watch-20.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-21-img:hover {
+  background-image: url(../img/watch-20-hov.jpg);
+}
+.watch-22-img {
+  background-image: url(../img/watch-21.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;
+}
+.watch-22-img:hover {
+  background-image: url(../img/watch-21-hove.jpg);
+}
+.watch-23-img {
+  background-image: url(../img/watch-22.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  transition: 1s ease-in-out;  overflow: hidden;
+}
+.watch-23-img:hover {
+  background-image: url(../img/watch-22-hov.jpg);  overflow: hidden;
+}
+.scale:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+/* MAIN */
+main {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+menu{
+    width: 80%;
+    margin: 0 auto;
+}
+.main-2{
+    width: 80%;
+    margin: 0 auto;
+}
+.side-img {
+  width: 100%;
+}
+.side-img:hover {
+  border: 1px solid red;
+}
+.video {
+  width: 100%;
+}
+.likes {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem;
+}
+.like {
+  /* color: white; */
+  align-items: center;
+  display: flex;
+  /* padding: 0px 0px; */
+  border: none;
+  gap: 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.like p {
+  color: white !important;
+  font-size: 1rem !important;
+}
+.likes h6 {
+  color: #518cc6;
+  font-size: 1.5rem !important;
+}
+/* MAIN */
+.main-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.feat-text {
+  text-align: center;
+  line-height: 0.2;
+}
+.feat-text h4 {
+  color: #000000;
+  font-size: 2.7rem;
+}
+
+.feat-text p {
+  color: #989898;
+  font-size: 1.5rem;
+}
+.curren-vid {
+  width: 50%;
+}
+.ctt {
+  /* background-color: red; */
+  line-height: 0.4;
+}
+.curren-vid h2 {
+  color: #706a6a;
+  font-size: 2rem;
+  margin-bottom: 0;    line-height: 1;
+}
+.curren-vid h1 {
+  font-size: 2rem;
+  color: #121317;
+  margin-top: 0;
+}
+.curren-vid p {
+  color: #121317;
+  font-size: 1.3rem;
+}
+.one-watch {
+  width: 40%;
+}
+.small-imgs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 10%;
+}
+.clear-p span {
+  color: red;
+}
+.clear-p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-img-2:hover {
+  border: 2px solid red;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.plus {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  /* padding: 0px 50px 0px 50px; */
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 10px;
+
+  width: 30%;
+  /* height: 80px; */
+}
+.cart {
+  display: flex;
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add {
+  background-color: red;
+  width: 70%;
+  padding: 0px 100px 0px 100px;
+  color: white;
+  padding: 0px 50px 0px 50px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.add:hover {
+  background-color: rgb(93, 7, 7);
+}
+.paypal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  gap: 10px;
+
+  cursor: pointer;
+}
+.paypal:hover {
+  background-color: rgb(167, 167, 31);
+}
+.more {
+  text-align: center;
+  display: flex;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
