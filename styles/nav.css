@@ -1,0 +1,176 @@
+.nav_1 {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    font-size: 1.1rem;
+}
+.menu-img{
+    display: none;
+}
+.top {
+    background-color: red;
+}
+
+.logo {
+    width: 250px;
+    cursor: pointer;
+}
+
+.icon {
+    height: 2rem;
+    width: 20px;
+}
+
+.icon_1 {
+    height: 2rem;
+    width: 40px;
+    /* padding-right: 5px; */
+}
+
+.icon_2 {
+    height: 2rem;
+    width: 40px;
+}
+
+.icon_3 {
+    height: 2rem;
+    width: 40px;
+}
+
+.icon_4 {
+    width: 40%;
+}
+
+.icon:hover .icon_1:hover,
+.icon_2:hover,
+.icon_3:hover {
+    color: red !important;
+}
+
+.display {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 5px;
+
+}
+.menu-img{
+    /* height: 40px; */
+    /* display: none; */
+    color: black;
+}
+.woman {
+    color: red;
+    text-decoration: none;
+}
+
+.anchor {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    /* background-color: green; */
+}
+
+.home {
+    color: black;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: red;
+}
+
+.nav_all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: white;
+    padding: 1rem;
+    /* width: 100; */
+    /* position: fixed; */
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+}
+.footers {
+    margin-top: 100px;
+    background-color: #ff5656;
+    width: 100%;
+}
+
+.footer {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid_all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+
+.cud {
+    width: 230px;
+}
+
+.contact h1 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.contact {
+    font-size: .8rem;
+    text-align: center;
+    ;
+    line-height: .9em;
+    color: white;
+}
+
+.menu {
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.menu h1 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.menu p {
+    color: rgb(217, 217, 217);
+    font-size: .9rem;
+}
+
+.hover:hover {
+    color: white;
+}
+
+.payment h1 {
+    font-size: 1rem;
+    color: white;
+}
+
+.payment {
+    text-align: center;
+}
+
+.visa {
+    width: 50px;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}

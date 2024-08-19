@@ -11,6 +11,8 @@
 }
 /* NAVIGATION */
 .hero-1 {
+  position: relative;
+  margin-top: 83px;
 }
 .hero-1-img {
   width: 80%;
@@ -20,7 +22,7 @@
   width: 100%;
 }
 header {
-    width: 80%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   border-bottom: 1px solid;
@@ -46,24 +48,22 @@ header {
   font-weight: 200;
 }
 .watches {
-  
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
   align-items: center;
   justify-content: center;
 }
-.strong span{
-    text-decoration: line-through;
+.strong span {
+  text-decoration: line-through;
 }
 .watches-2 {
-  
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
 .watch-1 {
   overflow: hidden;
 }
@@ -78,25 +78,24 @@ header {
   position: relative;
 }
 .check-text {
-    padding: 1rem;
-  text-align: center !important;
+  
+  padding-bottom: 1rem;
+  /* text-align: center !important; */
   position: absolute;
   bottom: 0;
   left: 20%;
-  line-height: .5;
-
-  
+  line-height: 1;
 }
-.check-text p:nth-child(1){
-/* background-color: red; */
-font-size: 1.8rem;
-color: #000000;
-font-weight: 500;
+.check-text p:nth-child(1) {
+ 
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 500;
 }
-.overlay{
-    background-color: #1213175f;
-    width: 100%;
-    height: 100%;
+.overlay {
+  background-color: #1213175f;
+  width: 100%;
+  height: 100%;
 }
 .watch-1-img {
   background-image: url(../img/currensimplewatch_375x.png);
@@ -372,10 +371,12 @@ font-weight: 500;
   background-repeat: no-repeat;
   height: 350px;
   width: 100%;
-  transition: 1s ease-in-out;  overflow: hidden;
+  transition: 1s ease-in-out;
+  overflow: hidden;
 }
 .watch-23-img:hover {
-  background-image: url(../img/watch-22-hov.jpg);  overflow: hidden;
+  background-image: url(../img/watch-22-hov.jpg);
+  overflow: hidden;
 }
 .scale:hover {
   transform: scale(1.1);
@@ -387,13 +388,13 @@ main {
   width: 80%;
   margin: 0 auto;
 }
-menu{
-    width: 80%;
-    margin: 0 auto;
+menu {
+  width: 80%;
+  margin: 0 auto;
 }
-.main-2{
-    width: 80%;
-    margin: 0 auto;
+.main-2 {
+  width: 80%;
+  margin: 0 auto;
 }
 .side-img {
   width: 100%;
@@ -456,7 +457,8 @@ menu{
 .curren-vid h2 {
   color: #706a6a;
   font-size: 2rem;
-  margin-bottom: 0;    line-height: 1;
+  margin-bottom: 0;
+  line-height: 1;
 }
 .curren-vid h1 {
   font-size: 2rem;
@@ -510,11 +512,9 @@ menu{
 }
 .add {
   background-color: red;
-  width: 70%;
-  padding: 0px 100px 0px 100px;
   color: white;
-  padding: 0px 50px 0px 50px;
   border-radius: 10px;
+  border: none;
   cursor: pointer;
 }
 .add:hover {
@@ -526,10 +526,11 @@ menu{
   justify-content: center;
   background-color: yellow;
   border: none;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   width: 100%;
   gap: 10px;
-
+  height: 30px;
+  padding: 5px 10px;
   cursor: pointer;
 }
 .paypal:hover {

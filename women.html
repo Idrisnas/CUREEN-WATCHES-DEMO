@@ -8,12 +8,55 @@
     <link rel="stylesheet" href="styles/women.css">
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </head>
 
 <body>
-    <div class="up">
+    <!-- <div class="up">
         <h4>Authentic & Original Curren Watches!</h4>
-    </div>
+    </div> -->
+    <!-- <div class="nav_1">
+        <div>
+            <p>Authentic & Original Curren Watches!</p>
+        </div>
+    </div> -->
+    <nav>
+        <div class="nav_all">
+            <div class="menu-img"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="">
+                <img src="img/Currenwatcheslogo_256x.png" alt="" class="logo">
+            </div>
+            <div class="anchor">
+                <a href="index.html" class="home">
+                    <p>Home</p>
+                </a>
+                <a href="men.html" class="home">
+                    <p>Men Watches</p>
+                </a>
+                <div>
+                    <a href="woman.html" class="woman">
+                        <p class="">Women Watches</p>
+                    </a>
+                </div>
+                <p class="home">Wholesaler</p>
+                <p class="home">Track order</p>
+                <p class="home">Contact us</p>
+            </div>
+            <div class="display">
+                <ion-icon name="search-outline" class="icon_1"></ion-icon>
+                <ion-icon name="person-circle-outline" class="icon_2"></ion-icon>
+                <ion-icon name="bag-outline" class="icon_1"></ion-icon>
+                <ion-icon name="settings-outline" class="icon_3"></ion-icon>
+                <!-- <div><img src="image/search.png" alt="" class="icon"></div>
+             <div><img src="image/sign.png" alt="" class="icon_2"></div>
+             <div><img src="image/bag.png" alt="" class="icon_1"></div>
+             <div><img src="image/gear.png" alt="" class="icon_3"></div> -->
+            </div>
+        </div>
+    </nav>
     <div class="hero-1">
         <div class="hero-1-img">
             <img src="https://www.currenwatches.com/cdn/shop/files/Webp.net-resizeimage_180f3635-da07-47dd-9b16-2c87d83a7f2b_1280x.jpg?v=1613521383"
@@ -158,7 +201,7 @@
         </div>
         <button class="btn-more m-g-t-30 m-g-b-30">Show More</button>
     </main>
-    <menu>
+    <menu class="men">
         <h1 class="best">Best Sellers</h1>
         <div class="watches-2">
             <div class="watch-1-check">
@@ -171,17 +214,16 @@
             </div>
             <div class="watch-1">
                 <div class="watch-17-img scale"></div>
-                <p>Chronograph New Watch (Dial 4.7cm) - CUR 139
-
+                <p>Curren Multifunctional Chronograph New Watch (Dial 4.7cm) - CUR 139
                 </p>
-                <div><strong> $24.99</strong></div>
+                <div class="strong"><strong> $24.99</strong></div>
                 <button class="btn-cart">Add to cart</button>
             </div>
             <div class="watch-1">
                 <div class="watch-18-img scale"></div>
                 <div class="height-1">
-                    <p>Curren Men's Sports (Dial 4.8cm) - - CUR208</p>
-                    <strong>from $27.99</strong>
+                    <p>Curren Men's Sports Military Chronograph Watch (Dial 4.8cm) - CUR208</p>
+                    <div class="strong"><strong>from $27.99</strong><span>$30.99</span></div>
                     <button class="btn-cart">Add to cart</button>
                 </div>
             </div>
@@ -190,7 +232,7 @@
             <div class="watch-1">
                 <div class="watch-19-img scale"></div>
                 <p>Curren Stainless Steel Chronograph Men's Watch (Dial - 4.7cm) - CUR198</p>
-                <strong>from $25.99</strong>
+                <div class="strong"><strong>from $27.99</strong><span>$30.99</span></div>
                 <button class="btn-cart">Add to cart</button>
             </div>
             <div class="watch-1">
@@ -223,7 +265,7 @@
             </div>
 
         </div>
-       
+
 
     </menu>
     <div class="main-2">
@@ -269,64 +311,68 @@
                     <h1>$43.99</h1>
                 </div>
                 <div class="vid">
-                <video controls name="media" src="img/Currenwatches-218.mp4" id="video/mp4" class="video"></video>
-                <p>Introducing new curren smart watch. A smart watch with 1.3inch retina <strong>HD display</strong>,
-                    IP68 waterproof, accurate heart monitoring, light-weight with <strong>14 days long battery
-                        life.</strong> We have completely redefined the way a smart watch should work, curren smart
-                    watch's visual clarity reaches up to 265ppi and 360 pixel with high resolution screen which is
-                    brighter, clearer and quicker for smooth view. It has changeable watch faces with a wide selection
-                    of more then 30 faces and even you can upload your own image as a watch face. Messages, Calls,
-                    Whatsapp, Social media, Sports mode, Health mode & Sleep mode are some of the awesome features of
-                    this smart watch. Find below all the specifications of curren smart watch.</p>
-                <p><strong>Description</strong></p>
-                <p>System: Android os, Android wear</p>
-                <p>Sim card: Not supported</p>
-                <p>Network mode: Not supported</p>
-                <p>Battery capacity: 220mah</p>
+                    <video controls name="media" src="img/Currenwatches-218.mp4" id="video/mp4" class="video"></video>
+                    <p>Introducing new curren smart watch. A smart watch with 1.3inch retina <strong>HD
+                            display</strong>,
+                        IP68 waterproof, accurate heart monitoring, light-weight with <strong>14 days long battery
+                            life.</strong> We have completely redefined the way a smart watch should work, curren smart
+                        watch's visual clarity reaches up to 265ppi and 360 pixel with high resolution screen which is
+                        brighter, clearer and quicker for smooth view. It has changeable watch faces with a wide
+                        selection
+                        of more then 30 faces and even you can upload your own image as a watch face. Messages, Calls,
+                        Whatsapp, Social media, Sports mode, Health mode & Sleep mode are some of the awesome features
+                        of
+                        this smart watch. Find below all the specifications of curren smart watch.</p>
+                    <p><strong>Description</strong></p>
+                    <p>System: Android os, Android wear</p>
+                    <p>Sim card: Not supported</p>
+                    <p>Network mode: Not supported</p>
+                    <p>Battery capacity: 220mah</p>
 
-                <p> Waterproof: IP68</p>
-                <p>Resolution: 265ppi
-                </p>
-                <p>Display: 1.3" TFT Round 360 Pixel
-                </p>
-                <p>Operate: Full mutli touch and physical button
-                </p>
-                <p>Bluetooth: Yes Bluetooth 5.0
-                </p>
-                <p>Sports Mode: 10 types of sports mode
-                </p>
-                <p>Watch Band: Edible silicon
-                </p>
-                <p>Camera: None
-                </p>
-                <p>Record Steps: Yes
-                </p>
-                <p>Social Media: Yes
-                </p>
-                <p>Message: Yes
-                </p>
-                <p>Call: Yes
-                </p>
-                <p>Email: Yes
-                </p>
-                <p>Sleep Management: Yes
-                </p>
-                <p>Health Management: Yes
-                </p>
-                <p>Heart Rate Monitor: Yes
-                </p>
-           
-                <div class="clear-p">
-                    <p>Color- <span>blue</span></p> <span>Clear filters</span>
+                    <p> Waterproof: IP68</p>
+                    <p>Resolution: 265ppi
+                    </p>
+                    <p>Display: 1.3" TFT Round 360 Pixel
+                    </p>
+                    <p>Operate: Full mutli touch and physical button
+                    </p>
+                    <p>Bluetooth: Yes Bluetooth 5.0
+                    </p>
+                    <p>Sports Mode: 10 types of sports mode
+                    </p>
+                    <p>Watch Band: Edible silicon
+                    </p>
+                    <p>Camera: None
+                    </p>
+                    <p>Record Steps: Yes
+                    </p>
+                    <p>Social Media: Yes
+                    </p>
+                    <p>Message: Yes
+                    </p>
+                    <p>Call: Yes
+                    </p>
+                    <p>Email: Yes
+                    </p>
+                    <p>Sleep Management: Yes
+                    </p>
+                    <p>Health Management: Yes
+                    </p>
+                    <p>Heart Rate Monitor: Yes
+                    </p>
+
+                    <div class="clear-p">
+                        <p>Color- <span>blue</span></p> <span>Clear filters</span>
+                    </div>
+                    <div class="side-1">
+                        <img src="	https://www.currenwatches.com/cdn/shop/products/v-3027034__1544107468_100x100.jpg?v=1655203545"
+                            alt="" class="side-img-2">
+                        <img src="https://www.currenwatches.com/cdn/shop/products/v-93818879__-897278531_100x100.jpg?v=1655203554"
+                            alt="" class="side-img-2"><img
+                            src="	https://www.currenwatches.com/cdn/shop/files/Currenpink-smartwatch_100x100.jpg?v=1703349051"
+                            alt="" class="side-img-2">
+                    </div>
                 </div>
-                <div>
-                    <img src="	https://www.currenwatches.com/cdn/shop/products/v-3027034__1544107468_100x100.jpg?v=1655203545"
-                        alt="" class="side-img-2">
-                    <img src="https://www.currenwatches.com/cdn/shop/products/v-93818879__-897278531_100x100.jpg?v=1655203554"
-                        alt="" class="side-img-2"><img
-                        src="	https://www.currenwatches.com/cdn/shop/files/Currenpink-smartwatch_100x100.jpg?v=1703349051"
-                        alt="" class="side-img-2">
-                </div> </div>
                 <div class="cart">
                     <div class="plus">
                         <p>-</p>
@@ -337,7 +383,8 @@
 
                 </div>
                 <div class="vid">
-                <button class="paypal">Buy with <img src="img/paypal.png" alt=""></button></div>
+                    <button class="paypal">Buy with <img src="img/paypal.png" alt=""></button>
+                </div>
                 <div class="more">
                     <p>More</p>
                     <p>Payment</p>
@@ -346,7 +393,7 @@
             </div>
         </div>
     </div>
-    <div class="hero-1 m-g-t-30">
+    <div class="hero-1 two m-g-t-30">
         <div class="hero-1-img">
             <img src="https://www.currenwatches.com/cdn/shop/files/banners_958px_002_35f4efd6-165b-47ee-939c-98fdd895701b_1280x.jpg?v=1613171793"
                 alt="">
@@ -358,6 +405,44 @@
             constantly stock new curren watches selections so be sure to check back often. We thank you for visiting us
             and hope you have an enjoyable shopping experience.</p>
     </div>
+    <footer class="footers">
+        <div class="footer">
+           <div class="grid_all">
+              <div class="grid_all_items">
+                 <img src="img/Currenwatcheslogo_256x.png" alt="" class="cud">
+              </div>
+              <div class="contact">
+                 <h1>Contact Us</h1>
+                 <p>Curren Watches.com</p>
+                 <p>Attn: Online Department</p>
+                 <p>Hillsborough NJ 08844</p>
+                 <p>Email: support@currenwatches.com</p>
+              </div>
+              <div class="menu">
+                 <h1 class="hover">Menu</h1>
+                 <p class="hover">Search</p>
+                 <p class="hover">About Us</p>
+                 <p class="hover">Shipping Info</p>
+                 <p class="hover">Return / Refund Info</p>
+                 <p class="hover">Privacy Policy</p>
+                 <p class="hover">Terms and Conditions</p>
+                 <p class="hover">Terms of Service</p>
+                 <p class="hover">Refund policy</p>
+              </div>
+              <div class="payment">
+                 <h1>Payment methods</h1>
+                 <img src="img/american-express.png" alt="" class="visa">
+                 <img src="img/visa.png" alt="" class="visa">
+                
+                 <img src="img/apple-pay.png" alt="" class="visa">
+                 <img src="img/paypal.png" alt="" class="visa">
+              </div>
+           </div>
+        </div>
+        <div class="copy">
+           <p>Copyright© 2014 - 2024 currenwatches.com</p>
+        </div>
+     </footer>
 </body>
 
 </html>
