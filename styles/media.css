@@ -3,6 +3,13 @@
         /* background-color: blue; */
     }
 
+    .nav_all {
+        display: flex;
+        justify-content: space-around !important;
+        align-items: center;
+       background-color: white !important;
+        
+    }
     .menu-img {
         display: block;
     }
@@ -43,6 +50,65 @@
 
     .none {
         display: none;
+    }
+
+    .footers {
+        margin-top: 0px !important;
+        background-color: #ff5656;
+        /* width: 100%; */
+    }
+
+    .cud {
+        width: 100%;
+    }
+
+    .grid_all_items {
+        margin-left: 2rem !important;
+        text-align: center;
+        width: 100% !important;
+    }
+
+    .footer {
+        /* background-color: rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 70px !important;
+    }
+
+    .grid_all {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 !important;
+        margin-top: 70px !important;
+
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100% !important;
+        /* background-color: purple; */
+        text-align: center;
+        color: white;
+        cursor: pointer;
+        line-height: .9;
+    }
+
+    .payment {
+        width: 100% !important;
+    }
+
+    .copy {
+        /* background-color: #518cc6; */
+        font-size: .7rem;
+        text-align: center;
+        color: white;
+        padding-bottom: 0px;
+        padding: 0 !important;
     }
 
     main {
@@ -207,7 +273,7 @@
     }
 
     .check-text p:nth-child(1) {
-        background-color: red;
+        /* background-color: red; */
         font-size: .7rem;
         color: #000000;
         font-weight: 500;
@@ -216,7 +282,8 @@
     }
 
     .check-text p:nth-child(2) {
-        background-color: peru;font-size: .5rem;
+        /* background-color: peru; */
+        font-size: .5rem;
     }
 
     .overlay {
@@ -447,7 +514,7 @@
     }
 
     .anchor {
-        background-color: blanchedalmond !important;
+        /* background-color: blanchedalmond !important; */
         display: none !important;
     }
 
